@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- div para encapsular o conteudo do imc -->
     <div class="wraper">
         <div class="imc">
             <h2>Descubra seu IMC</h2>
@@ -18,10 +19,42 @@
             <br>
             <input type="button" value="Calcular" onclick="calcular()">
             <div class="res"></div>
-        </div>
+        </div> 
+        <!-- usei aside para fazer a tabela -->       
+        <aside>
+            <table>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificacoes</th>
+                </tr>
+                 <tr>
+                    <td>Menor de 18,5</td>
+                    <td style="background-color: rgba(255, 255, 0, 0.26);">Abaixo do peso normal</td>
+                </tr>
+                <tr>
+                    <td>18,5 a 24,9</td>
+                    <td style="background-color: rgba(0, 128, 0, 0.322);">Peso normal</td>
+                </tr>
+                <tr>
+                    <td>25,0 a 29,9</td>
+                    <td style="background-color: rgba(238, 255, 0, 0.411);">Excesso de peso</td>
+                </tr>
+                <tr>
+                    <td>30,0 a 34,9</td>
+                    <td style="background-color: rgba(255, 0, 0, 0.212);">Obesidade classe I</td>
+                </tr>
+                <tr>
+                    
+                    <td>35,0 a 39,9</td>
+                    <td style="background-color: rgba(255, 0, 0, 0.349);">Obesidade classe II</td>
+                </tr>
+                <tr>
+                    <td>40,0 ou Maior</td>
+                    <td style="background-color: rgba(255, 0, 0, 0.562);">Obesidade classe III</td>
+                </tr>
+            </table>
+        </aside>
         <footer>Criado por Gabriel Qualho</footer>
-    </div>
-    
-</body>
-    
+    </div>      
+</body> 
 </html>

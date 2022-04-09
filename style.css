@@ -4,11 +4,15 @@
     margin: 0;  
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    
 }
 
 body {
     background-color: #578FC2;
+}
+
+p {
+    font-weight: bold;   
 }
 
 .imc {
@@ -35,10 +39,10 @@ body {
     color: #325270;   
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 2.2rem; 
+    font-weight: bold;
 }
 
-#nome {
-    
+#nome { 
     margin: 5px;
 }
 #altura {
@@ -64,5 +68,32 @@ footer{
     font-size: 1.8rem;
     margin-top: 10px;
     font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+}
+
+aside {
+    width: 350px;
+    height: 203px;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+
+table {
+    width: 323px;
+    margin: 13.5px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+td {
+    text-align: center;
+    font-style: italic;
 }
 

@@ -6,7 +6,6 @@ function calcular(){
     var resp = pesoVar.value / (alturaVar.value * alturaVar.value)
     var res = document.querySelector('.res')
     
-
-    res.innerHTML =`Olá ${nomeVar.value} o seu IMC é de <u>${resp}</u>`  
+    res.innerHTML =`Olá <strong>${nomeVar.value}</strong> o seu IMC é de <strong><u>${resp}</u></strong>`  
 }
 
